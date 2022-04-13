@@ -1382,10 +1382,10 @@ header .logo a {
 	padding: 0;
 }
 
-.intro-social li a, .intro-social li a:visited {
+.social-media-buttons li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
-.intro-social li a:hover, .intro-social li a:focus {
+.social-media-buttons li a:hover, .intro-social li a:focus {
 	color: #cc005f;
 }
 .social-media-buttons {
@@ -1397,7 +1397,7 @@ header .logo a {
 
 .social-media-logo {
     border-radius: 50%;
-    width: 5vw;
+    width: 10vw;
     text-decoration: none;
 	mix-blend-mode: multiply;
 }
