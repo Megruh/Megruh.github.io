@@ -944,7 +944,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 0.5rem solid #FCDC5F;
     width: 95%;
     margin-top: 1rem;
 }
@@ -1483,7 +1482,7 @@ header .logo a {
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	max-width: 900px;
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
