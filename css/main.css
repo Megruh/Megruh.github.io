@@ -1376,11 +1376,11 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 }
-/* .intro-social li {
+.intro-social li {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
-} */
+}
 
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
@@ -1397,8 +1397,9 @@ header .logo a {
 
 .social-media-logo {
     border-radius: 50%;
-    width: 3vw;
+    width: 1vw;
     text-decoration: none;
+	mix-blend-mode: multiply;
 }
 
 /**
