@@ -1397,7 +1397,7 @@ header .logo a {
 
 .social-media-logo {
     border-radius: 50%;
-    width: 1vw;
+    width: 5vw;
     text-decoration: none;
 	mix-blend-mode: multiply;
 }
