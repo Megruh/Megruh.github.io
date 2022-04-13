@@ -946,6 +946,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     align-items: center;
     width: 95%;
     margin-top: 1rem;
+	margin-left: auto;
+}
+
+#skills-section h3 {
+	color: #CC175F;
 }
 
 #skills {
@@ -1371,16 +1376,29 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 }
-.intro-social li {
+/* .intro-social li {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
-}
+} */
+
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
+}
+.social-media-buttons {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+	color: white;
+}
+
+.social-media-logo {
+    border-radius: 50%;
+    width: 3vw;
+    text-decoration: none;
 }
 
 /**
