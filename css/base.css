@@ -483,6 +483,10 @@ textarea {
 	width: 100%;
 }
 
+#col-twelve-buttons {
+	padding-left: 13rem;
+}
+
 /**
  * small screens - (_grid.scss)
  * --------------------------------------------------------------- 
