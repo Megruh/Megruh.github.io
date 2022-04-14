@@ -982,6 +982,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
+
+
 /** 
  * ===================================================================
  * 08. common styles (_layout.scss)
@@ -1318,6 +1320,7 @@ header .logo h3 {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
+	margin-top: 25px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	color: #FFFFFF;
@@ -1788,6 +1791,9 @@ header .logo h3 {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 #portfolio .overlay {
@@ -1885,6 +1891,9 @@ header .logo h3 {
 }
 .popup-modal img {
 	vertical-align: bottom;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .popup-modal .description-box {
 	padding: 1.8rem 3.6rem 3rem;
